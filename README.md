@@ -1,6 +1,6 @@
 # BART Translator REST API
 
-The program launches the REST API to the mBART interpreter (uses the mbart-large-50 model), containing the following endpoints:
+The program launches a REST API to an mBART interpreter (uses the mbart-large-50 model), containing the following endpoints:
 
 ```
 GET    /              healthcheck
