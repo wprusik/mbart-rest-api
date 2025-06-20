@@ -1,4 +1,4 @@
-# BART Translator REST API
+# mBART Translator REST API
 
 The program launches a REST API to an mBART interpreter (uses the mbart-large-50 model), containing the following endpoints:
 
