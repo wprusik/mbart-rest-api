@@ -2,13 +2,11 @@
 
 The program launches the REST API to the mBART interpreter (uses the mbart-large-50 model), containing the following endpoints:
 
-**GET /**           healthcheck
-
-**GET /languages**  list of languages
-
-**POST /translate** text translation
-
-Whole API can be found at [localhost:8080/docs](http://localhost:8080/docs)
+```
+GET    /              healthcheck
+GET    /languages     list of languages
+POST   /translate     text translation
+```
 
 # Running on docker
 ### 1. Go to one of the directories: gpu or cpu
